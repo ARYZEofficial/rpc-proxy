@@ -5,26 +5,26 @@
     "codeName": "ethereum",
     "chainId": "0x1",
     "rpcUrls": [
-      "https://mainnet.infura.io/v3/7c14bd275dfb4468b20d9440443bae7f"
+      "https://holy-fluent-sunset.quiknode.pro/106de4bfddfc3d70ea4a40f504be8581dc3a98b7"
     ],
     "blockExplorerUrls": ["https://etherscan.io"],
     "nativeTokenSymbol": "ETH",
     "nativeTokenName": "Eth",
-    "logo": "/img/networks/ethereum.png"
+    "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/ethereum.png"
   },
+
   "0x38": {
     "name": "Binance Smart Chain",
     "shortName": "BSC",
     "codeName": "bsc",
     "chainId": "0x38",
     "rpcUrls": [
-      "https://bsc-dataseed1.binance.org/",
-      "https://bsc-mainnet.blastapi.io/7533d2c1-cb3e-44fc-868a-6f21f636ca5e"
+      "https://frequent-muddy-spring.bsc.quiknode.pro/de0b7741d14d0a6cfae6d6fb8e10baf8e9d30cb0"
     ],
     "blockExplorerUrls": ["https://bscscan.com"],
     "nativeTokenSymbol": "BNB",
     "nativeTokenName": "Binance Coin",
-    "logo": "/img/networks/binance.svg"
+    "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/binance.svg"
   },
 
   "0x89": {
@@ -33,13 +33,55 @@
     "codeName": "polygon",
     "chainId": "0x89",
     "rpcUrls": [
-      "https://polygon.llamarpc.com",
-      "https://polygon-rpc.com",
-      "https://polygon-mainnet.g.alchemy.com/v2/bXbM9NUxq4jwiTtdfqflfpHlISKeaCUB"
+      "https://distinguished-winter-uranium.matic.quiknode.pro/19c44685a28398ead2ab503cf515c397c40c4969"
     ],
     "blockExplorerUrls": ["https://polygonscan.com"],
     "nativeTokenSymbol": "MATIC",
     "nativeTokenName": "MATIC",
-    "logo": "/img/networks/polygon.png"
+    "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/polygon.png"
+  },
+
+  "0x5": {
+    "name": "Goerli",
+    "shortName": "Goerli",
+    "codeName": "goerli",
+
+    "chainId": "0x5",
+    "rpcUrls": [
+      "https://blissful-blue-haze.ethereum-goerli.quiknode.pro/2b9a560f6bf53527eebdbd8d5db8663a19ef18d3"
+    ],
+    "blockExplorerUrls": ["https://goerli.etherscan.io"],
+    "nativeTokenSymbol": "ETH",
+    "nativeTokenName": "Eth",
+    "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/ethereum.png"
+  },
+
+  "0x61": {
+    "name": "Binance Testnet",
+    "shortName": "BSC Test",
+    "codeName": "bsc testnet",
+
+    "chainId": "0x61",
+    "rpcUrls": [
+      "https://side-floral-friday.bsc-testnet.quiknode.pro/f7df61e0562437aeb6e2ef3d1d1fa97c09dabb3c"
+    ],
+    "blockExplorerUrls": ["https://testnet.bscscan.com"],
+    "nativeTokenSymbol": "BNB",
+    "nativeTokenName": "Binance Coin",
+    "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/binance.svg"
+  },
+
+  "0x13881": {
+    "name": "Mumbai",
+    "shortName": "Mumbai",
+    "codeName": "mumbai",
+    "chainId": "0x13881",
+    "rpcUrls": [
+      "https://hidden-clean-dream.matic-testnet.quiknode.pro/b7135bc10b6ba1ac298f2ee817647dbd57156806"
+    ],
+    "blockExplorerUrls": ["https://mumbai.polygonscan.com"],
+    "nativeTokenSymbol": "MATIC",
+    "nativeTokenName": "MATIC",
+    "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/polygon.png"
   }
 }
