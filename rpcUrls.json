@@ -22,7 +22,7 @@
 
       "0x38": {
         "name": "Binance Smart Chain",
-        "shortName": "BSC",
+        "shortName": "BNB Chain",
         "codeName": "bsc",
         "chainId": "0x38",
         "rpcUrls": [
@@ -65,7 +65,7 @@
 
       "0x61": {
         "name": "Binance Testnet",
-        "shortName": "BSC Test",
+        "shortName": "BNB Test",
         "codeName": "bsc testnet",
 
         "chainId": "0x61",
