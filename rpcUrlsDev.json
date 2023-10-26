@@ -1,0 +1,92 @@
+{
+  "name": "ARYZE Network Palace Dev",
+  "timestamp": "2022-10-20T14:40:22.229Z",
+  "version": { "major": 1, "minor": 0, "patch": 0 },
+  "tags": {},
+  "keywords": ["ARYZE", "default"],
+  "networks": [
+    {
+      "0x1": {
+        "name": "Ethereum Mainnet",
+        "shortName": "Ethereum",
+        "codeName": "ethereum",
+        "chainId": "0x1",
+        "rpcUrls": [
+          "https://mainnet.infura.io/v3/49ed82e8649845ec837c60a2ea56e39a"
+        ],
+        "blockExplorerUrls": ["https://etherscan.io"],
+        "nativeTokenSymbol": "ETH",
+        "nativeTokenName": "Eth",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/ethereum.png"
+      },
+
+      "0x38": {
+        "name": "Binance Smart Chain",
+        "shortName": "BSC",
+        "codeName": "bsc",
+        "chainId": "0x38",
+        "rpcUrls": ["https://binance.llamarpc.com"],
+        "blockExplorerUrls": ["https://bscscan.com"],
+        "nativeTokenSymbol": "BNB",
+        "nativeTokenName": "Binance Coin",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/binance.svg"
+      },
+
+      "0x89": {
+        "name": "Polygon Mainnet",
+        "shortName": "Polygon",
+        "codeName": "polygon",
+        "chainId": "0x89",
+        "rpcUrls": [
+          "https://polygon-mainnet.infura.io/v3/49ed82e8649845ec837c60a2ea56e39a"
+        ],
+        "blockExplorerUrls": ["https://polygonscan.com"],
+        "nativeTokenSymbol": "MATIC",
+        "nativeTokenName": "MATIC",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/polygon.png"
+      },
+
+      "0x5": {
+        "name": "Goerli",
+        "shortName": "Goerli",
+        "codeName": "goerli",
+
+        "chainId": "0x5",
+        "rpcUrls": [
+          "https://goerli.infura.io/v3/49ed82e8649845ec837c60a2ea56e39a"
+        ],
+        "blockExplorerUrls": ["https://goerli.etherscan.io"],
+        "nativeTokenSymbol": "ETH",
+        "nativeTokenName": "Eth",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/ethereum.png"
+      },
+
+      "0x61": {
+        "name": "Binance Testnet",
+        "shortName": "BSC Test",
+        "codeName": "bsc testnet",
+
+        "chainId": "0x61",
+        "rpcUrls": ["https://bsc-testnet.publicnode.com"],
+        "blockExplorerUrls": ["https://testnet.bscscan.com"],
+        "nativeTokenSymbol": "BNB",
+        "nativeTokenName": "Binance Coin",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/binance.svg"
+      },
+
+      "0x13881": {
+        "name": "Mumbai",
+        "shortName": "Mumbai",
+        "codeName": "mumbai",
+        "chainId": "0x13881",
+        "rpcUrls": [
+          "https://polygon-mumbai.infura.io/v3/49ed82e8649845ec837c60a2ea56e39a"
+        ],
+        "blockExplorerUrls": ["https://mumbai.polygonscan.com"],
+        "nativeTokenSymbol": "MATIC",
+        "nativeTokenName": "MATIC",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/polygon.png"
+      }
+    }
+  ]
+}
