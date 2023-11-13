@@ -1,7 +1,7 @@
 {
   "name": "ARYZE Network Palace",
   "timestamp": "2022-10-20T14:40:22.229Z",
-  "version": { "major": 1, "minor": 0, "patch": 0 },
+  "version": { "major": 1, "minor": 0, "patch": 1 },
   "tags": {},
   "keywords": ["ARYZE", "default"],
   "networks": [
@@ -55,7 +55,7 @@
 
         "chainId": "0x5",
         "rpcUrls": [
-          "https://blissful-blue-haze.ethereum-goerli.quiknode.pro/2b9a560f6bf53527eebdbd8d5db8663a19ef18d3"
+          "https://ethereum-goerli.publicnode.com"
         ],
         "blockExplorerUrls": ["https://goerli.etherscan.io"],
         "nativeTokenSymbol": "ETH",
@@ -70,7 +70,7 @@
 
         "chainId": "0x61",
         "rpcUrls": [
-          "https://side-floral-friday.bsc-testnet.quiknode.pro/f7df61e0562437aeb6e2ef3d1d1fa97c09dabb3c"
+          "https://bsc-testnet.publicnode.com"
         ],
         "blockExplorerUrls": ["https://testnet.bscscan.com"],
         "nativeTokenSymbol": "BNB",
@@ -84,7 +84,7 @@
         "codeName": "mumbai",
         "chainId": "0x13881",
         "rpcUrls": [
-          "https://hidden-clean-dream.matic-testnet.quiknode.pro/b7135bc10b6ba1ac298f2ee817647dbd57156806"
+          "https://polygon-mumbai-bor.publicnode.com"
         ],
         "blockExplorerUrls": ["https://mumbai.polygonscan.com"],
         "nativeTokenSymbol": "MATIC",
