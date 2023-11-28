@@ -12,7 +12,7 @@
         "codeName": "ethereum",
         "chainId": "0x1",
         "rpcUrls": [
-          "https://holy-fluent-sunset.quiknode.pro/106de4bfddfc3d70ea4a40f504be8581dc3a98b7"
+          "https://mainnet.gateway.tenderly.co/5hpNbQx8hCceEZ1YIkLHRp"
         ],
         "blockExplorerUrls": ["https://etherscan.io"],
         "nativeTokenSymbol": "ETH",
@@ -26,7 +26,7 @@
         "codeName": "bsc",
         "chainId": "0x38",
         "rpcUrls": [
-          "https://frequent-muddy-spring.bsc.quiknode.pro/de0b7741d14d0a6cfae6d6fb8e10baf8e9d30cb0"
+          "https://bsc-dataseed1.binance.org/"
         ],
         "blockExplorerUrls": ["https://bscscan.com"],
         "nativeTokenSymbol": "BNB",
@@ -40,7 +40,7 @@
         "codeName": "polygon",
         "chainId": "0x89",
         "rpcUrls": [
-          "https://distinguished-winter-uranium.matic.quiknode.pro/19c44685a28398ead2ab503cf515c397c40c4969"
+          "https://polygon.gateway.tenderly.co/5hpNbQx8hCceEZ1YIkLHRp"
         ],
         "blockExplorerUrls": ["https://polygonscan.com"],
         "nativeTokenSymbol": "MATIC",
