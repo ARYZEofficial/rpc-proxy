@@ -1,7 +1,7 @@
 {
   "name": "ARYZE Network Palace",
   "timestamp": "2022-10-20T14:40:22.229Z",
-  "version": { "major": 1, "minor": 0, "patch": 2 },
+  "version": { "major": 1, "minor": 0, "patch": 3 },
   "tags": {},
   "keywords": ["ARYZE", "default"],
   "networks": [
@@ -26,7 +26,7 @@
         "codeName": "bsc",
         "chainId": "0x38",
         "rpcUrls": [
-          "https://bsc-dataseed1.binance.org/"
+          "https://chaotic-purple-borough.bsc.quiknode.pro/88da97ad5c6a07a38fd91366d81284833d278db9/"
         ],
         "blockExplorerUrls": ["https://bscscan.com"],
         "nativeTokenSymbol": "BNB",
