@@ -53,7 +53,7 @@
 
         "chainId": "0x5",
         "rpcUrls": [
-          "https://goerli.infura.io/v3/49ed82e8649845ec837c60a2ea56e39a"
+          "https://ethereum-goerli.publicnode.com"
         ],
         "blockExplorerUrls": ["https://goerli.etherscan.io"],
         "nativeTokenSymbol": "ETH",
@@ -80,7 +80,7 @@
         "codeName": "mumbai",
         "chainId": "0x13881",
         "rpcUrls": [
-          "https://polygon-mumbai.infura.io/v3/49ed82e8649845ec837c60a2ea56e39a"
+          "https://polygon-mumbai-bor.publicnode.com"
         ],
         "blockExplorerUrls": ["https://mumbai.polygonscan.com"],
         "nativeTokenSymbol": "MATIC",
