@@ -12,7 +12,7 @@
         "codeName": "ethereum",
         "chainId": "0x1",
         "rpcUrls": [
-          "https://mainnet.infura.io/v3/49ed82e8649845ec837c60a2ea56e39a"
+          "https://ethereum-rpc.publicnode.com"
         ],
         "blockExplorerUrls": ["https://etherscan.io"],
         "nativeTokenSymbol": "ETH",
@@ -25,7 +25,7 @@
         "shortName": "BSC",
         "codeName": "bsc",
         "chainId": "0x38",
-        "rpcUrls": ["https://binance.llamarpc.com"],
+        "rpcUrls": ["https://bsc-rpc.publicnode.com"],
         "blockExplorerUrls": ["https://bscscan.com"],
         "nativeTokenSymbol": "BNB",
         "nativeTokenName": "Binance Coin",
@@ -38,7 +38,7 @@
         "codeName": "polygon",
         "chainId": "0x89",
         "rpcUrls": [
-          "https://polygon-mainnet.infura.io/v3/49ed82e8649845ec837c60a2ea56e39a"
+          "https://polygon-bor-rpc.publicnode.com"
         ],
         "blockExplorerUrls": ["https://polygonscan.com"],
         "nativeTokenSymbol": "MATIC",
