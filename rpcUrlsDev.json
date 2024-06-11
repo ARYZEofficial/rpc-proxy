@@ -86,6 +86,19 @@
         "nativeTokenSymbol": "MATIC",
         "nativeTokenName": "MATIC",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/polygon.png"
+      },
+       "0xe708": {
+        "name": "Linea Mainnet",
+        "shortName": "Linea",
+        "codeName": "linea",
+        "chainId": "0xe708",
+        "rpcUrls": [
+          "https://linea.decubate.com"
+        ],
+        "blockExplorerUrls": ["https://lineascan.build/"],
+        "nativeTokenSymbol": "ETH",
+        "nativeTokenName": "ETH",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/linea.png"
       }
     }
   ]
