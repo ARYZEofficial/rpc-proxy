@@ -1,9 +1,9 @@
 {
   "name": "ARYZE Network Palace",
   "timestamp": "2022-10-20T14:40:22.229Z",
-  "version": { "major": 1, "minor": 0, "patch": 5 },
+  "version": { "major": 1, "minor": 0, "patch": 6 },
   "tags": {},
-  "keywords": ["ARYZE", "default"],
+  "keywords": ["ARYZE", "default", "Supported chains"],
   "networks": [
     {
       "0x1": {
@@ -19,7 +19,6 @@
         "nativeTokenName": "Eth",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/ethereum.png"
       },
-
       "0x38": {
         "name": "Binance Smart Chain",
         "shortName": "BNB Chain",
@@ -33,7 +32,6 @@
         "nativeTokenName": "Binance Coin",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/binance.svg"
       },
-
       "0x89": {
         "name": "Polygon Mainnet",
         "shortName": "Polygon",
@@ -47,7 +45,6 @@
         "nativeTokenName": "MATIC",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/polygon.png"
       },
-
       "0x5": {
         "name": "Goerli",
         "shortName": "Goerli",
@@ -62,7 +59,6 @@
         "nativeTokenName": "Eth",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/ethereum.png"
       },
-
       "0x61": {
         "name": "Binance Testnet",
         "shortName": "BNB Test",
@@ -77,7 +73,6 @@
         "nativeTokenName": "Binance Coin",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/binance.svg"
       },
-
       "0x13881": {
         "name": "Mumbai",
         "shortName": "Mumbai",
@@ -87,6 +82,19 @@
           "https://polygon-mumbai-bor.publicnode.com"
         ],
         "blockExplorerUrls": ["https://mumbai.polygonscan.com"],
+        "nativeTokenSymbol": "MATIC",
+        "nativeTokenName": "MATIC",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/polygon.png"
+      },
+       "0x13882": {
+        "name": "Amoy",
+        "shortName": "Amoy",
+        "codeName": "amoy",
+        "chainId": "0x13882",
+        "rpcUrls": [
+          "https://polygon-amoy-bor-rpc.publicnode.com"
+        ],
+        "blockExplorerUrls": ["https://amoy.polygonscan.com"],
         "nativeTokenSymbol": "MATIC",
         "nativeTokenName": "MATIC",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/polygon.png"
