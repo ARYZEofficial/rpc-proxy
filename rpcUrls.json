@@ -1,7 +1,7 @@
 {
   "name": "ARYZE Network Palace",
   "timestamp": "2022-10-20T14:40:22.229Z",
-  "version": { "major": 1, "minor": 0, "patch": 7 },
+  "version": { "major": 1, "minor": 0, "patch": 8 },
   "tags": {},
   "keywords": ["ARYZE", "default", "Supported chains"],
   "networks": [
@@ -15,6 +15,19 @@
           "https://mainnet.gateway.tenderly.co/5hpNbQx8hCceEZ1YIkLHRp"
         ],
         "blockExplorerUrls": ["https://etherscan.io"],
+        "nativeTokenSymbol": "ETH",
+        "nativeTokenName": "Eth",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/ethereum.png"
+      },
+       "0xaa36a7": {
+        "name": "Ethereum Sepolia",
+        "shortName": "Sepolia",
+        "codeName": "sepolia",
+        "chainId": "0xaa36a7",
+        "rpcUrls": [
+          "https://ethereum-sepolia-rpc.publicnode.com"
+        ],
+        "blockExplorerUrls": ["https://sepolia.etherscan.io"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "Eth",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/ethereum.png"
