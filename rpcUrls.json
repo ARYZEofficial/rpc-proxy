@@ -118,7 +118,7 @@
         "codeName": "linea",
         "chainId": "0xe708",
         "rpcUrls": [
-          "https://linea-mainnet.infura.io/v3/"
+          "https://linea-mainnet.infura.io/v3/49ed82e8649845ec837c60a2ea56e39a"
         ],
         "blockExplorerUrls": ["https://lineascan.build"],
         "nativeTokenSymbol": "ETH",
