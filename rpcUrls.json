@@ -118,7 +118,7 @@
         "codeName": "linea",
         "chainId": "0xe708",
         "rpcUrls": [
-          "https://linea.decubate.com"
+          "https://linea-mainnet.infura.io/v3/"
         ],
         "blockExplorerUrls": ["https://lineascan.build"],
         "nativeTokenSymbol": "ETH",
