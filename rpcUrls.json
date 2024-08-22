@@ -1,7 +1,7 @@
 {
   "name": "ARYZE Network Palace",
   "timestamp": "2022-10-20T14:40:22.229Z",
-  "version": { "major": 1, "minor": 0, "patch": 8 },
+  "version": { "major": 1, "minor": 0, "patch": 9 },
   "tags": {},
   "keywords": ["ARYZE", "default", "Supported chains"],
   "networks": [
@@ -118,7 +118,7 @@
         "codeName": "linea",
         "chainId": "0xe708",
         "rpcUrls": [
-          "https://linea.decubate.com"
+          "https://linea-mainnet.infura.io/v3/"
         ],
         "blockExplorerUrls": ["https://lineascan.build"],
         "nativeTokenSymbol": "ETH",
