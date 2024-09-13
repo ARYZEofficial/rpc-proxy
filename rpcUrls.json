@@ -1,7 +1,7 @@
 {
   "name": "ARYZE Network Palace",
   "timestamp": "2022-10-20T14:40:22.229Z",
-  "version": { "major": 1, "minor": 0, "patch": 10 },
+  "version": { "major": 1, "minor": 0, "patch": 11 },
   "tags": {},
   "keywords": ["ARYZE", "default", "Supported chains"],
   "networks": [
