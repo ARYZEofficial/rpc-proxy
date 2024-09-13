@@ -1,7 +1,7 @@
 {
   "name": "ARYZE Network Palace Dev",
   "timestamp": "2022-10-20T14:40:22.229Z",
-  "version": { "major": 1, "minor": 0, "patch": 9 },
+  "version": { "major": 1, "minor": 0, "patch": 10 },
   "tags": {},
   "keywords": ["ARYZE", "default"],
   "networks": [
@@ -125,6 +125,19 @@
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/linea.svg"
+      },
+      "0xa4b1": {
+        "name": "Arbitrum One",
+        "shortName": "Arbitrum",
+        "codeName": "arbitrum",
+        "chainId": "0xa4b1",
+        "rpcUrls": [
+          "https://arbitrum-one-rpc.publicnode.com"
+        ],
+        "blockExplorerUrls": ["https://arbiscan.io/"],
+        "nativeTokenSymbol": "ETH",
+        "nativeTokenName": "ETH",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/arbitrum.svg"
       },
        "0x13e31": {
         "name": "Blast",
