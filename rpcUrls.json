@@ -136,7 +136,7 @@
         "blockExplorerUrls": ["https://arbiscan.io/"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
-        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/blast.jpg"
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/arbitrum.svg"
       },
       "0x13e31": {
         "name": "Blast",
