@@ -12,7 +12,7 @@
         "codeName": "ethereum",
         "chainId": "0x1",
         "rpcUrls": [
-          "https://mainnet.gateway.tenderly.co/5hpNbQx8hCceEZ1YIkLHRp"
+          "https://ethereum-rpc.publicnode.com"
         ],
         "blockExplorerUrls": ["https://etherscan.io"],
         "nativeTokenSymbol": "ETH",
@@ -38,7 +38,7 @@
         "codeName": "bsc",
         "chainId": "0x38",
         "rpcUrls": [
-          "https://chaotic-purple-borough.bsc.quiknode.pro/88da97ad5c6a07a38fd91366d81284833d278db9/"
+          "https://bsc-rpc.publicnode.com"
         ],
         "blockExplorerUrls": ["https://bscscan.com"],
         "nativeTokenSymbol": "BNB",
@@ -118,12 +118,25 @@
         "codeName": "linea",
         "chainId": "0xe708",
         "rpcUrls": [
-          "https://linea-mainnet.infura.io/v3/49ed82e8649845ec837c60a2ea56e39a"
+          "https://linea-rpc.publicnode.com"
         ],
         "blockExplorerUrls": ["https://lineascan.build"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/linea.svg"
+      },
+       "0xa4b1": {
+        "name": "Arbitrum One",
+        "shortName": "Arbitrum",
+        "codeName": "arbitrum",
+        "chainId": "0xa4b1",
+        "rpcUrls": [
+          "https://arbitrum-one-rpc.publicnode.com"
+        ],
+        "blockExplorerUrls": ["https://arbiscan.io/"],
+        "nativeTokenSymbol": "ETH",
+        "nativeTokenName": "ETH",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/blast.jpg"
       },
       "0x13e31": {
         "name": "Blast",
@@ -138,6 +151,6 @@
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/blast.jpg"
       }
-    }
+     }
   ]
 }
