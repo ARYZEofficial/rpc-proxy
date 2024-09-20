@@ -1,7 +1,7 @@
 {
   "name": "ARYZE Network Palace Dev",
   "timestamp": "2022-10-20T14:40:22.229Z",
-  "version": { "major": 1, "minor": 0, "patch": 10 },
+  "version": { "major": 1, "minor": 0, "patch": 11 },
   "tags": {},
   "keywords": ["ARYZE", "default"],
   "networks": [
@@ -124,7 +124,7 @@
         "blockExplorerUrls": ["https://lineascan.build/"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
-        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/linea.svg"
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/linea_black.png"
       },
       "0xa4b1": {
         "name": "Arbitrum One",
