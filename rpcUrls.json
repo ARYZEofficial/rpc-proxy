@@ -1,7 +1,7 @@
 {
   "name": "ARYZE Network Palace",
   "timestamp": "2022-10-20T14:40:22.229Z",
-  "version": { "major": 1, "minor": 0, "patch": 13 },
+  "version": { "major": 1, "minor": 0, "patch": 14 },
   "tags": {},
   "keywords": ["ARYZE", "default", "Supported chains"],
   "networks": [
@@ -150,6 +150,20 @@
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/blast.jpg"
+      }
+     },
+     "0x144": {
+        "name": "zkSync Mainnet",
+        "shortName": "zkSync",
+        "codeName": "zkSync",
+        "chainId": "0x144",
+        "rpcUrls": [
+          "https://mainnet.era.zksync.io/"
+        ],
+        "blockExplorerUrls": ["https://explorer.zksync.io/"],
+        "nativeTokenSymbol": "ETH",
+        "nativeTokenName": "ETH",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/zk_sync.png"
       }
      }
   ]
