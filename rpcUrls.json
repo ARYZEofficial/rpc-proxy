@@ -1,7 +1,7 @@
 {
   "name": "ARYZE Network Palace",
   "timestamp": "2022-10-20T14:40:22.229Z",
-  "version": { "major": 1, "minor": 0, "patch": 15 },
+  "version": { "major": 1, "minor": 0, "patch": 16 },
   "tags": {},
   "keywords": ["ARYZE", "default", "Supported chains"],
   "networks": [
@@ -157,12 +157,90 @@
         "codeName": "zkSync",
         "chainId": "0x144",
         "rpcUrls": [
-          "https://mainnet.era.zksync.io/"
+          "https://mainnet.era.zksync.io"
         ],
         "blockExplorerUrls": ["https://explorer.zksync.io/"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/zk_sync.png"
+      },
+       "0xa": {
+        "name": "Optimism Mainnet",
+        "shortName": "Optimism",
+        "codeName": "Optimism",
+        "chainId": "0xa",
+        "rpcUrls": [
+          "https://optimism-rpc.publicnode.com"
+        ],
+        "blockExplorerUrls": ["https://optimistic.etherscan.io/"],
+        "nativeTokenSymbol": "ETH",
+        "nativeTokenName": "ETH",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/optimism.png"
+      },
+       "0xa4ec": {
+        "name": "Celo Mainnet",
+        "shortName": "Celo",
+        "codeName": "Celo",
+        "chainId": "0xa4ec",
+        "rpcUrls": [
+          "https://forno.celo.org"
+        ],
+        "blockExplorerUrls": ["https://celoscan.io/"],
+        "nativeTokenSymbol": "CELO",
+        "nativeTokenName": "CELO",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/celo.png"
+      },
+       "0x82750": {
+        "name": "Scroll Mainnet",
+        "shortName": "Scroll",
+        "codeName": "Scroll",
+        "chainId": "0x82750",
+        "rpcUrls": [
+          "https://scroll-rpc.publicnode.com"
+        ],
+        "blockExplorerUrls": ["https://scrollscan.com/"],
+        "nativeTokenSymbol": "ETH",
+        "nativeTokenName": "ETH",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/scroll.png"
+      },
+       "0x868b": {
+        "name": "Mode Mainnet",
+        "shortName": "Mode",
+        "codeName": "Mode",
+        "chainId": "0x868b",
+        "rpcUrls": [
+          "https://mainnet.mode.network/"
+        ],
+        "blockExplorerUrls": ["https://modescan.io/"],
+        "nativeTokenSymbol": "ETH",
+        "nativeTokenName": "ETH",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/mode.png"
+      },
+       "0x1388": {
+        "name": "Mantle Mainnet",
+        "shortName": "Mantle",
+        "codeName": "Mantle",
+        "chainId": "0x1388",
+        "rpcUrls": [
+          "https://mantle-rpc.publicnode.com/"
+        ],
+        "blockExplorerUrls": ["https://explorer.mantle.xyz/"],
+        "nativeTokenSymbol": "MNT",
+        "nativeTokenName": "MNT",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/mantle.png"
+      },
+       "0xa86a": {
+        "name": "Avalanche C-Chain",
+        "shortName": "Avalanche",
+        "codeName": "Avalanche",
+        "chainId": "0xa86a",
+        "rpcUrls": [
+          "https://avalanche-c-chain-rpc.publicnode.com"
+        ],
+        "blockExplorerUrls": ["https://avascan.info/"],
+        "nativeTokenSymbol": "AVAX",
+        "nativeTokenName": "AVAX",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/avalanche.png"
       }
      }
   ]
