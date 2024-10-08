@@ -1,7 +1,7 @@
 {
   "name": "ARYZE Network Palace",
   "timestamp": "2022-10-20T14:40:22.229Z",
-  "version": { "major": 1, "minor": 0, "patch": 16 },
+  "version": { "major": 1, "minor": 0, "patch": 17 },
   "tags": {},
   "keywords": ["ARYZE", "default", "Supported chains"],
   "networks": [
@@ -133,7 +133,7 @@
         "rpcUrls": [
           "https://arbitrum-one-rpc.publicnode.com"
         ],
-        "blockExplorerUrls": ["https://arbiscan.io/"],
+        "blockExplorerUrls": ["https://arbiscan.io"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/arbitrum.svg"
@@ -159,7 +159,7 @@
         "rpcUrls": [
           "https://mainnet.era.zksync.io"
         ],
-        "blockExplorerUrls": ["https://explorer.zksync.io/"],
+        "blockExplorerUrls": ["https://explorer.zksync.io"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/zk_sync.png"
@@ -172,7 +172,7 @@
         "rpcUrls": [
           "https://optimism-rpc.publicnode.com"
         ],
-        "blockExplorerUrls": ["https://optimistic.etherscan.io/"],
+        "blockExplorerUrls": ["https://optimistic.etherscan.io"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/optimism.png"
@@ -185,7 +185,7 @@
         "rpcUrls": [
           "https://forno.celo.org"
         ],
-        "blockExplorerUrls": ["https://celoscan.io/"],
+        "blockExplorerUrls": ["https://celoscan.io"],
         "nativeTokenSymbol": "CELO",
         "nativeTokenName": "CELO",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/celo.png"
@@ -198,7 +198,7 @@
         "rpcUrls": [
           "https://scroll-rpc.publicnode.com"
         ],
-        "blockExplorerUrls": ["https://scrollscan.com/"],
+        "blockExplorerUrls": ["https://scrollscan.com"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/scroll.png"
@@ -211,7 +211,7 @@
         "rpcUrls": [
           "https://mainnet.mode.network/"
         ],
-        "blockExplorerUrls": ["https://modescan.io/"],
+        "blockExplorerUrls": ["https://modescan.io"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/mode.png"
@@ -224,7 +224,7 @@
         "rpcUrls": [
           "https://mantle-rpc.publicnode.com/"
         ],
-        "blockExplorerUrls": ["https://explorer.mantle.xyz/"],
+        "blockExplorerUrls": ["https://explorer.mantle.xyz"],
         "nativeTokenSymbol": "MNT",
         "nativeTokenName": "MNT",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/mantle.png"
@@ -237,7 +237,7 @@
         "rpcUrls": [
           "https://avalanche-c-chain-rpc.publicnode.com"
         ],
-        "blockExplorerUrls": ["https://avascan.info/"],
+        "blockExplorerUrls": ["https://avascan.info/blockchain/c"],
         "nativeTokenSymbol": "AVAX",
         "nativeTokenName": "AVAX",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/avalanche.png"
