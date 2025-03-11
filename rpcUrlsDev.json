@@ -1,7 +1,7 @@
 {
   "name": "ARYZE Network Palace Dev",
   "timestamp": "2022-10-20T14:40:22.229Z",
-  "version": { "major": 1, "minor": 0, "patch": 16 },
+  "version": { "major": 1, "minor": 0, "patch": 17 },
   "tags": {},
   "keywords": ["ARYZE", "default"],
   "networks": [
@@ -255,6 +255,19 @@
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/base.png"
+      },
+       "0x3ee": {
+        "name": "LemonChain",
+        "shortName": "LemonChain",
+        "codeName": "LemonChain",
+        "chainId": "0x3ee",
+        "rpcUrls": [
+          "https://rpc.lemonchain.io"
+        ],
+        "blockExplorerUrls": ["https://explorer.lemonchain.io"],
+        "nativeTokenSymbol": "LEMX",
+        "nativeTokenName": "LEMX",
+        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/lemonchain.png"
       }
     }
   ]
