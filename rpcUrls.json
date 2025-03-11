@@ -1,7 +1,7 @@
 {
   "name": "ARYZE Network Palace",
   "timestamp": "2022-10-20T14:40:22.229Z",
-  "version": { "major": 1, "minor": 0, "patch": 21 },
+  "version": { "major": 1, "minor": 0, "patch": 22 },
   "tags": {},
   "keywords": ["ARYZE", "default", "Supported chains"],
   "networks": [
@@ -254,8 +254,7 @@
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/base.png"
-      }
-     },
+      },
      "0x3ee": {
         "name": "LemonChain",
         "shortName": "LemonChain",
@@ -269,6 +268,6 @@
         "nativeTokenName": "LEMX",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/lemonchain.png"
       }
-     }
+    }
   ]
 }
