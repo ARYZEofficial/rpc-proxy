@@ -1,7 +1,7 @@
 {
   "name": "ARYZE Network Palace",
   "timestamp": "2022-10-20T14:40:22.229Z",
-  "version": { "major": 1, "minor": 0, "patch": 22 },
+  "version": { "major": 1, "minor": 0, "patch": 23 },
   "tags": {},
   "keywords": ["ARYZE", "default", "Supported chains"],
   "networks": [
@@ -12,21 +12,23 @@
         "codeName": "ethereum",
         "chainId": "0x1",
         "rpcUrls": [
-          "https://ethereum-rpc.publicnode.com"
+          "https://ethereum-rpc.publicnode.com",
+          "https://eth.llamarpc.com",
+          "https://rpc.payload.de",
+          "https://rpc.mevblocker.io",
+          "https://eth.blockrazor.xyz"
         ],
         "blockExplorerUrls": ["https://etherscan.io"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "Eth",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/ethereum.png"
       },
-       "0xaa36a7": {
+      "0xaa36a7": {
         "name": "Ethereum Sepolia",
         "shortName": "Sepolia",
         "codeName": "sepolia",
         "chainId": "0xaa36a7",
-        "rpcUrls": [
-          "https://ethereum-sepolia-rpc.publicnode.com"
-        ],
+        "rpcUrls": ["https://ethereum-sepolia-rpc.publicnode.com"],
         "blockExplorerUrls": ["https://sepolia.etherscan.io"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "Eth",
@@ -38,7 +40,11 @@
         "codeName": "bsc",
         "chainId": "0x38",
         "rpcUrls": [
-          "https://bsc-rpc.publicnode.com"
+          "https://bsc-rpc.publicnode.com",
+          "https://bsc-pokt.nodies.app",
+          "https://bsc.meowrpc.com",
+          "https://bsc.blockrazor.xyz",
+          "https://bsc-pokt.nodies.app"
         ],
         "blockExplorerUrls": ["https://bscscan.com"],
         "nativeTokenSymbol": "BNB",
@@ -51,26 +57,14 @@
         "codeName": "polygon",
         "chainId": "0x89",
         "rpcUrls": [
-          "https://polygon-bor-rpc.publicnode.com"
+          "https://polygon-bor-rpc.publicnode.com",
+          "https://polygon-pokt.nodies.app",
+          "https://1rpc.io/matic"
         ],
         "blockExplorerUrls": ["https://polygonscan.com"],
         "nativeTokenSymbol": "MATIC",
         "nativeTokenName": "MATIC",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/polygon.png"
-      },
-      "0x5": {
-        "name": "Goerli",
-        "shortName": "Goerli",
-        "codeName": "goerli",
-
-        "chainId": "0x5",
-        "rpcUrls": [
-          "https://ethereum-goerli.publicnode.com"
-        ],
-        "blockExplorerUrls": ["https://goerli.etherscan.io"],
-        "nativeTokenSymbol": "ETH",
-        "nativeTokenName": "Eth",
-        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/ethereum.png"
       },
       "0x61": {
         "name": "Binance Testnet",
@@ -78,35 +72,18 @@
         "codeName": "bsc testnet",
 
         "chainId": "0x61",
-        "rpcUrls": [
-          "https://bsc-testnet.publicnode.com"
-        ],
+        "rpcUrls": ["https://bsc-testnet.publicnode.com"],
         "blockExplorerUrls": ["https://testnet.bscscan.com"],
         "nativeTokenSymbol": "BNB",
         "nativeTokenName": "Binance Coin",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/binance.svg"
       },
-      "0x13881": {
-        "name": "Mumbai",
-        "shortName": "Mumbai",
-        "codeName": "mumbai",
-        "chainId": "0x13881",
-        "rpcUrls": [
-          "https://polygon-mumbai-bor.publicnode.com"
-        ],
-        "blockExplorerUrls": ["https://mumbai.polygonscan.com"],
-        "nativeTokenSymbol": "MATIC",
-        "nativeTokenName": "MATIC",
-        "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/polygon.png"
-      },
-       "0x13882": {
+      "0x13882": {
         "name": "Amoy",
         "shortName": "Amoy",
         "codeName": "amoy",
         "chainId": "0x13882",
-        "rpcUrls": [
-          "https://polygon-amoy-bor-rpc.publicnode.com"
-        ],
+        "rpcUrls": ["https://polygon-amoy-bor-rpc.publicnode.com"],
         "blockExplorerUrls": ["https://amoy.polygonscan.com"],
         "nativeTokenSymbol": "MATIC",
         "nativeTokenName": "MATIC",
@@ -118,20 +95,23 @@
         "codeName": "linea",
         "chainId": "0xe708",
         "rpcUrls": [
-          "https://linea-rpc.publicnode.com"
+          "https://linea-rpc.publicnode.com",
+          "https://rpc.linea.build"
         ],
         "blockExplorerUrls": ["https://lineascan.build"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/linea_black.png"
       },
-       "0xa4b1": {
+      "0xa4b1": {
         "name": "Arbitrum One",
         "shortName": "Arbitrum",
         "codeName": "arbitrum",
         "chainId": "0xa4b1",
         "rpcUrls": [
-          "https://arbitrum-one-rpc.publicnode.com"
+          "https://arbitrum-one-rpc.publicnode.com",
+          "https://1rpc.io/arb",
+          "https://endpoints.omniatech.io/v1/arbitrum/one/public"
         ],
         "blockExplorerUrls": ["https://arbiscan.io"],
         "nativeTokenSymbol": "ETH",
@@ -144,98 +124,113 @@
         "codeName": "blast",
         "chainId": "0x13e31",
         "rpcUrls": [
-          "https://blast-rpc.publicnode.com"
+          "https://blast-rpc.publicnode.com",
+          "https://endpoints.omniatech.io/v1/blast/mainnet/public",
+          "https://rpc.blast.io"
         ],
         "blockExplorerUrls": ["https://blastscan.io"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/blast.jpg"
       },
-     "0x144": {
+      "0x144": {
         "name": "zkSync Mainnet",
         "shortName": "zkSync",
         "codeName": "zkSync",
         "chainId": "0x144",
         "rpcUrls": [
-          "https://mainnet.era.zksync.io"
+          "https://mainnet.era.zksync.io",
+          "https://1rpc.io/zksync2-era",
+          "https://1rpc.io/zksync2-era"
         ],
         "blockExplorerUrls": ["https://explorer.zksync.io"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/zk_sync.png"
       },
-       "0xa": {
+      "0xa": {
         "name": "Optimism Mainnet",
         "shortName": "Optimism",
         "codeName": "Optimism",
         "chainId": "0xa",
         "rpcUrls": [
-          "https://optimism-rpc.publicnode.com"
+          "https://optimism-rpc.publicnode.com",
+          "https://1rpc.io/op",
+          "https://optimism.llamarpc.com",
+          "https://endpoints.omniatech.io/v1/op/mainnet/public",
+          "https://optimism.meowrpc.com"
         ],
         "blockExplorerUrls": ["https://optimistic.etherscan.io"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/optimism.png"
       },
-       "0xa4ec": {
+      "0xa4ec": {
         "name": "Celo Mainnet",
         "shortName": "Celo",
         "codeName": "Celo",
         "chainId": "0xa4ec",
-        "rpcUrls": [
-          "https://forno.celo.org"
-        ],
+        "rpcUrls": ["https://forno.celo.org"],
         "blockExplorerUrls": ["https://celoscan.io"],
         "nativeTokenSymbol": "CELO",
         "nativeTokenName": "CELO",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/celo.png"
       },
-       "0x82750": {
+      "0x82750": {
         "name": "Scroll Mainnet",
         "shortName": "Scroll",
         "codeName": "Scroll",
         "chainId": "0x82750",
         "rpcUrls": [
-          "https://scroll-rpc.publicnode.com"
+          "https://scroll-rpc.publicnode.com",
+          "https://1rpc.io/scroll",
+          "https://rpc.scroll.io"
         ],
         "blockExplorerUrls": ["https://scrollscan.com"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/scroll.png"
       },
-       "0x868b": {
+      "0x868b": {
         "name": "Mode Mainnet",
         "shortName": "Mode",
         "codeName": "Mode",
         "chainId": "0x868b",
         "rpcUrls": [
-          "https://mainnet.mode.network/"
+          "https://mainnet.mode.network/",
+          "https://1rpc.io/mode",
+          "https://mode.gateway.tenderly.co"
         ],
         "blockExplorerUrls": ["https://modescan.io"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/mode.jpg"
       },
-       "0x1388": {
+      "0x1388": {
         "name": "Mantle Mainnet",
         "shortName": "Mantle",
         "codeName": "Mantle",
         "chainId": "0x1388",
         "rpcUrls": [
-          "https://mantle-rpc.publicnode.com/"
+          "https://mantle-rpc.publicnode.com/",
+          "https://rpc.mantle.xyz",
+          "https://endpoints.omniatech.io/v1/mantle/mainnet/public"
         ],
         "blockExplorerUrls": ["https://explorer.mantle.xyz"],
         "nativeTokenSymbol": "MNT",
         "nativeTokenName": "MNT",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/mantle.png"
       },
-       "0xa86a": {
+      "0xa86a": {
         "name": "Avalanche C-Chain",
         "shortName": "Avalanche",
         "codeName": "Avalanche",
         "chainId": "0xa86a",
         "rpcUrls": [
-          "https://avalanche-c-chain-rpc.publicnode.com"
+          "https://avalanche-c-chain-rpc.publicnode.com",
+          "https://avax.meowrpc.com",
+          "https://avalanche.drpc.org",
+          "https://endpoints.omniatech.io/v1/avax/mainnet/public"
         ],
         "blockExplorerUrls": ["https://avascan.info/blockchain/c"],
         "nativeTokenSymbol": "AVAX",
@@ -248,21 +243,22 @@
         "codeName": "Base",
         "chainId": "0x2105",
         "rpcUrls": [
-          "https://base-rpc.publicnode.com"
+          "https://base-rpc.publicnode.com",
+          "https://base.meowrpc.com",
+          "https://base-pokt.nodies.app",
+          "https://base.llamarpc.com"
         ],
         "blockExplorerUrls": ["https://basescan.org"],
         "nativeTokenSymbol": "ETH",
         "nativeTokenName": "ETH",
         "logo": "https://raw.githubusercontent.com/ARYZEofficial/rpc-proxy/main/networks/base.png"
       },
-     "0x3ee": {
+      "0x3ee": {
         "name": "LemonChain",
         "shortName": "LemonChain",
         "codeName": "LemonChain",
         "chainId": "0x3ee",
-        "rpcUrls": [
-          "https://rpc.lemonchain.io"
-        ],
+        "rpcUrls": ["https://rpc.lemonchain.io"],
         "blockExplorerUrls": ["https://explorer.lemonchain.io"],
         "nativeTokenSymbol": "LEMX",
         "nativeTokenName": "LEMX",
